@@ -1,0 +1,30 @@
+{
+  "treino": 96,
+  "validacao": 24,
+  "teste": 30,
+  "epocas": 79,
+  "perda": 0.1020122766494751,
+  "acuracia": 0.9666666388511658,
+  "matriz": [
+    [
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      1
+    ],
+    [
+      0,
+      0,
+      10
+    ]
+  ],
+  "previsoes": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ]
+}

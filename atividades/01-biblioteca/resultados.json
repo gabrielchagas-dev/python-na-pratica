@@ -1,0 +1,10 @@
+{
+  "titulos": 6,
+  "disponiveis": 5,
+  "exemplares": 15,
+  "generos": {
+    "Tecnologia": 7,
+    "Ficção": 7,
+    "História": 1
+  }
+}

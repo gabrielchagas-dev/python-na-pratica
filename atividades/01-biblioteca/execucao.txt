@@ -1,0 +1,15 @@
+LIVROS DISPONÍVEIS
+Python para iniciantes | Ana Souza | Tecnologia | 4
+Algoritmos em Python | Bruno Lima | Tecnologia | 3
+O jardim das estrelas | Carla Santos | Ficção | 5
+Viagem ao futuro | Diego Alves | Ficção | 2
+História da cidade | Eva Rocha | História | 1
+
+BUSCA POR TÍTULO
+[Livro(titulo='Python para iniciantes', autor='Ana Souza', genero='Tecnologia', quantidade=4)]
+Busca sem resultado: []
+
+<Figure size 800x400 with 1 Axes>
+Exemplares por gênero: {'Tecnologia': 7, 'Ficção': 7, 'História': 1}
+
+TESTES: cadastro, busca, disponibilidade e validação aprovados.

@@ -1,0 +1,38 @@
+AMOSTRA DOS DADOS
+ id_venda data_venda   produto   categoria  valor_venda
+        1 2023-01-01 Produto A Eletrônicos       1500.0
+        2 2023-01-05 Produto B      Roupas        350.0
+        3 2023-02-10 Produto C Eletrônicos       1200.0
+        4 2023-03-15 Produto D      Livros        200.0
+        5 2023-03-20 Produto E Eletrônicos        800.0
+
+Valores ausentes: {'id_venda': 0, 'data_venda': 0, 'produto': 0, 'categoria': 0, 'valor_venda': 0}
+Duplicatas: 0; dados preparados: {'id_venda': dtype('int64'), 'data_venda': dtype('<M8[us]'), 'produto': <StringDtype(na_value=nan)>, 'categoria': <StringDtype(na_value=nan)>, 'valor_venda': dtype('float64')}
+
+Faturamento: R$ 8800.00; vendas: 14; ticket: R$ 628.57
+
+FATURAMENTO POR CATEGORIA
+             Receita  Participação (%)
+categoria                             
+Eletrônicos   6100.0             69.32
+Roupas        1800.0             20.45
+Livros         900.0             10.23
+
+FATURAMENTO MENSAL
+data_venda
+1     1850.0
+2     1200.0
+3     1000.0
+4      400.0
+5      150.0
+6     1000.0
+7      600.0
+8      700.0
+9      300.0
+10     450.0
+11     900.0
+12     250.0
+
+<Figure size 900x400 with 1 Axes>
+<Figure size 800x400 with 1 Axes>
+TESTES: 14 registros, valores válidos e totais conferidos.
